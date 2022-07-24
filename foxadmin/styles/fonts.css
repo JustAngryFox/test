@@ -1,0 +1,253 @@
+/*
+@font-face{font-family: Montserrat-Bold;src: url(fonts/Montserrat-Bold.ttf);}
+@font-face{font-family: Montserrat-Light;src: url(fonts/Montserrat-Light.ttf);}
+@font-face{font-family: Montserrat-Medium;src: url(fonts/Montserrat-Medium.ttf);}
+@font-face{font-family: Montserrat-Regular;src: url(fonts/Montserrat-Regular.ttf);}
+
+@font-face{font-family: MyriadPro-Black;src: url(fonts/MyriadPro-Black.ttf);}
+@font-face{font-family: MyriadPro-BlackCond;src: url(fonts/MyriadPro-BlackCond.ttf);}
+@font-face{font-family: MyriadPro-BlackCondIt;src: url(fonts/MyriadPro-BlackCondIt.ttf);}
+@font-face{font-family: MyriadPro-BlackIt;src: url(fonts/MyriadPro-BlackIt.ttf);}
+@font-face{font-family: MyriadPro-BlackSemiCn;src: url(fonts/MyriadPro-BlackSemiCn.ttf);}
+@font-face{font-family: MyriadPro-BlackSemiCnIt;src: url(fonts/MyriadPro-BlackSemiCnIt.ttf);}
+@font-face{font-family: MyriadPro-MyriadPro-BlackSemiExt;src: url(fonts/MyriadPro-BlackSemiExt.ttf);}
+@font-face{font-family: MyriadPro-BlackSemiExtIt;src: url(fonts/MyriadPro-BlackSemiExtIt.ttf);}
+@font-face{font-family: MyriadPro-Bold;src: url(fonts/MyriadPro-Bold.ttf);}
+@font-face{font-family: MyriadPro-BoldCond;src: url(fonts/MyriadPro-BoldCond.ttf);}
+@font-face{font-family: MyriadPro-BoldCondIt;src: url(fonts/MyriadPro-BoldCondIt.ttf);}
+@font-face{font-family: MyriadPro-BoldIt;src: url(fonts/MyriadPro-BoldIt.ttf);}
+@font-face{font-family: MyriadPro-BoldSemiCn;src: url(fonts/MyriadPro-BoldSemiCn.ttf);}
+@font-face{font-family: MyriadPro-BoldSemiCnIt;src: url(fonts/MyriadPro-BoldSemiCnIt.ttf);}
+@font-face{font-family: MyriadPro-BoldSemiExt;src: url(fonts/MyriadPro-BoldSemiExt.ttf);}
+@font-face{font-family: MyriadPro-BoldSemiExtIt;src: url(fonts/MyriadPro-BoldSemiExtIt.ttf);}
+@font-face{font-family: MyriadPro-Cond;src: url(fonts/MyriadPro-Cond.ttf);}
+@font-face{font-family: MyriadPro-It;src: url(fonts/MyriadPro-It.ttf);}
+@font-face{font-family: MyriadPro-Light;src: url(fonts/MyriadPro-Light.ttf);}
+@font-face{font-family: MyriadPro-LightCond;src: url(fonts/MyriadPro-LightCond.ttf);}
+@font-face{font-family: MyriadPro-LightCondIt;src: url(fonts/MyriadPro-LightCondIt.ttf);}
+@font-face{font-family: MyriadPro-LightIt;src: url(fonts/MyriadPro-LightIt.ttf);}
+@font-face{font-family: MyriadPro-LightSemiCn;src: url(fonts/MyriadPro-LightSemiCn.ttf);}
+@font-face{font-family: MyriadPro-LightSemiCnIt;src: url(fonts/MyriadPro-LightSemiCnIt.ttf);}
+@font-face{font-family: MyriadPro-LightSemiExt;src: url(fonts/MyriadPro-LightSemiExt.ttf);}
+@font-face{font-family: MyriadPro-LightSemiExtIt;src: url(fonts/MyriadPro-LightSemiExtIt.ttf);}
+@font-face{font-family: MyriadPro-Regular;src: url(fonts/MyriadPro-Regular.ttf);}
+@font-face{font-family: MyriadPro-Semibold;src: url(fonts/MyriadPro-Semibold.ttf);}
+@font-face{font-family: MyriadPro-SemiboldCond;src: url(fonts/MyriadPro-SemiboldCond.ttf);}
+@font-face{font-family: MyriadPro-SemiboldCondIt;src: url(fonts/MyriadPro-SemiboldCondIt.ttf);}
+@font-face{font-family: MyriadPro-SemiboldIt;src: url(fonts/MyriadPro-SemiboldIt.ttf);}
+@font-face{font-family: MyriadPro-SemiboldSemiCn;src: url(fonts/MyriadPro-SemiboldSemiCn.ttf);}
+@font-face{font-family: MyriadPro-SemiboldSemiCnIt;src: url(fonts/MyriadPro-SemiboldSemiCnIt.ttf);}
+@font-face{font-family: MyriadPro-SemiboldSemiExt;src: url(fonts/MyriadPro-SemiboldSemiExt.ttf);}
+@font-face{font-family: MyriadPro-SemiboldSemiExtIt;src: url(fonts/MyriadPro-SemiboldSemiExtIt.ttf);}
+@font-face{font-family: MyriadPro-SemiCn;src: url(fonts/MyriadPro-SemiCn.ttf);}
+@font-face{font-family: MyriadPro-SemiCnIt;src: url(fonts/MyriadPro-SemiCnIt.ttf);}
+@font-face{font-family: MyriadPro-SemiExt;src: url(fonts/MyriadPro-SemiExt.ttf);}
+@font-face{font-family: MyriadPro-SemiExtIt;src: url(fonts/MyriadPro-SemiExtIt.ttf);}
+
+@font-face{font-family: Ubuntu-Bold;src: url(fonts/Ubuntu-Bold.ttf);}
+@font-face{font-family: Ubuntu-BoldItalic;src: url(fonts/Ubuntu-BoldItalic.ttf);}
+@font-face{font-family: Ubuntu-Italic;src: url(fonts/Ubuntu-Italic.ttf);}
+@font-face{font-family: Ubuntu-Light;src: url(fonts/Ubuntu-Light.ttf);}
+@font-face{font-family: Ubuntu-LightItalic;src: url(fonts/Ubuntu-LightItalic.ttf);}
+@font-face{font-family: Ubuntu-Medium;src: url(fonts/Ubuntu-Medium.ttf);}
+@font-face{font-family: Ubuntu-MediumItalic;src: url(fonts/Ubuntu-MediumItalic.ttf);}
+@font-face{font-family: Ubuntu-Regular;src: url(fonts/Ubuntu-Regular.ttf);}
+
+@font-face{font-family: Palatino;src: url(fonts/Palatino.ttf);}
+
+
+@font-face{font-family: OpenSansCondensed-Bold;src: url(fonts/OpenSansCondensed-Bold.ttf);}
+@font-face{font-family: OpenSansCondensed-Light;src: url(fonts/OpenSansCondensed-Light.ttf);}
+@font-face{font-family: OpenSansCondensed-LightItalic;src: url(fonts/OpenSansCondensed-LightItalic.ttf);}
+
+@font-face{font-family: SegoeUI;src: url(fonts/SegoeUI.ttf);}
+@font-face{font-family: SegoeUI-Bold;src: url(fonts/SegoeUI-Bold.ttf);}
+@font-face{font-family: SegoeUI-BoldItalic;src: url(fonts/SegoeUI-BoldItalic.ttf);}
+@font-face{font-family: SegoeUI-Italic;src: url(fonts/SegoeUI-Italic.ttf);}
+@font-face{font-family: SegoeUI-Light;src: url(fonts/SegoeUI-Light.ttf);}
+@font-face{font-family: SegoeUI-SemiBold;src: url(fonts/SegoeUI-SemiBold.ttf);}
+
+@font-face{font-family: Roboto-Black;src: url(fonts/Roboto-Black.ttf);}
+@font-face{font-family: Roboto-BlackItalic;src: url(fonts/Roboto-BlackItalic.ttf);}
+@font-face{font-family: Roboto-BoldItalic;src: url(fonts/Roboto-BoldItalic.ttf);}
+@font-face{font-family: Roboto-Thin;src: url(fonts/Roboto-Thin.ttf);}
+@font-face{font-family: Roboto-ThinItalic;src: url(fonts/Roboto-ThinItalic.ttf);}
+@font-face{font-family: Roboto-Bold;src: url(fonts/Roboto-Bold.ttf);}
+@font-face{font-family: Roboto-Italic;src: url(fonts/Roboto-Italic.ttf);}
+@font-face{font-family: Roboto-Medium;src: url(fonts/Roboto-Medium.ttf);}
+@font-face{font-family: Roboto-Regular;src: url(fonts/Roboto-Regular.ttf);}
+@font-face{font-family: Roboto-Regular;src: url(fonts/Roboto-Regular.ttf);}
+@font-face{font-family: Roboto-MediumItalic;src: url(fonts/Roboto-MediumItalic.ttf);}
+@font-face{font-family: Roboto-LightItalic;src: url(fonts/Roboto-LightItalic.ttf);}
+@font-face{font-family: Roboto-Light;src: url(fonts/Roboto-Light.ttf);}
+
+@font-face{font-family: SourceSansPro-Black;src: url(fonts/SourceSansPro-Black.ttf);}
+@font-face{font-family: SourceSansPro-BlackItalic;src: url(fonts/SourceSansPro-BlackItalic.ttf);}
+@font-face{font-family: SourceSansPro-BoldItalic;src: url(fonts/SourceSansPro-BoldItalic.ttf);}
+@font-face{font-family: SourceSansPro-ExtraLight;src: url(fonts/SourceSansPro-ExtraLight.ttf);}
+@font-face{font-family: SourceSansPro-ExtraLightItalic;src: url(fonts/SourceSansPro-ExtraLightItalic.ttf);}
+@font-face{font-family: SourceSansPro-Italic;src: url(fonts/SourceSansPro-Italic.ttf);}
+@font-face{font-family: SourceSansPro-LightItalic;src: url(fonts/SourceSansPro-LightItalic.ttf);}
+@font-face{font-family: SourceSansPro-SemiBold;src: url(fonts/SourceSansPro-SemiBold.ttf);}
+@font-face{font-family: SourceSansPro-SemiBoldItalic;src: url(fonts/SourceSansPro-SemiBoldItalic.ttf);}
+@font-face{font-family: SourceSansPro-Regular;src: url(fonts/SourceSansPro-Regular.ttf);}
+@font-face{font-family: SourceSansPro-Light;src: url(fonts/SourceSansPro-Light.ttf);}
+@font-face{font-family: SourceSansPro-Bold;src: url(fonts/SourceSansPro-Bold.ttf);}
+
+@font-face{font-family: Ubuntu-Bold;src: url(fonts/Ubuntu-Bold.ttf);}
+@font-face{font-family: Ubuntu-BoldItalic;src: url(fonts/Ubuntu-BoldItalic.ttf);}
+@font-face{font-family: Ubuntu-Italic;src: url(fonts/Ubuntu-Italic.ttf);}
+@font-face{font-family: Ubuntu-Light;src: url(fonts/Ubuntu-Light.ttf);}
+@font-face{font-family: Ubuntu-LightItalic;src: url(fonts/Ubuntu-LightItalic.ttf);}
+@font-face{font-family: Ubuntu-Medium;src: url(fonts/Ubuntu-Medium.ttf);}
+@font-face{font-family: Ubuntu-MediumItalic;src: url(fonts/Ubuntu-MediumItalic.ttf);}
+@font-face{font-family: Ubuntu-Regular;src: url(fonts/Ubuntu-Regular.ttf);}
+
+@font-face{font-family: UniSansBold;src: url(fonts/UniSansBold.ttf);}
+@font-face{font-family: UniSansBoldItalic;src: url(fonts/UniSansBoldItalic.ttf);}
+@font-face{font-family: UniSansBook;src: url(fonts/UniSansBook.ttf);}
+@font-face{font-family: UniSansBookItalic;src: url(fonts/UniSansBookItalic.ttf);}
+@font-face{font-family: UniSansHeavy;src: url(fonts/UniSansHeavy.ttf);}
+@font-face{font-family: UniSansHeavyCAPS;src: url(fonts/UniSansHeavyCAPS.ttf);}
+@font-face{font-family: UniSansHeavyCapsItalic;src: url(fonts/UniSansHeavyCapsItalic.ttf);}
+@font-face{font-family: UniSansHeavyItalic;src: url(fonts/UniSansHeavyItalic.ttf);}
+@font-face{font-family: UniSansHeavyItalicCAPS;src: url(fonts/UniSansHeavyItalicCAPS.ttf);}
+@font-face{font-family: UniSansLight;src: url(fonts/UniSansLight.ttf);}
+@font-face{font-family: UniSansLightItalic;src: url(fonts/UniSansLightItalic.ttf);}
+@font-face{font-family: UniSansRegular;src: url(fonts/UniSansRegular.ttf);}
+@font-face{font-family: UniSansRegularItalic;src: url(fonts/UniSansRegularItalic.ttf);}
+@font-face{font-family: UniSansSemiBold;src: url(fonts/UniSansSemiBold.ttf);}
+@font-face{font-family: UniSansSemiBoldItalic;src: url(fonts/UniSansSemiBoldItalic.ttf);}
+@font-face{font-family: UniSansThin;src: url(fonts/UniSansThin.ttf);}
+
+@font-face{font-family: TTHoves-Black;src: url(fonts/TTHoves-Black.ttf);}
+@font-face{font-family: TTHoves-BlackItalic;src: url(fonts/TTHoves-BlackItalic.ttf);}
+@font-face{font-family: TTHoves-Bold;src: url(fonts/TTHoves-Bold.ttf);}
+@font-face{font-family: TTHoves-BoldItalic;src: url(fonts/TTHoves-BoldItalic.ttf);}
+@font-face{font-family: TTHoves-DemiBold;src: url(fonts/TTHoves-DemiBold.ttf);}
+@font-face{font-family: TTHoves-DemiBoldItalic;src: url(fonts/TTHoves-DemiBoldItalic.ttf);}
+@font-face{font-family: TTHoves-ExtraBold;src: url(fonts/TTHoves-ExtraBold.ttf);}
+@font-face{font-family: TTHoves-ExtraBoldItalic;src: url(fonts/TTHoves-ExtraBoldItalic.ttf);}
+@font-face{font-family: TTHoves-ExtraLight;src: url(fonts/TTHoves-ExtraLight.ttf);}
+@font-face{font-family: TTHoves-ExtraLightItalic;src: url(fonts/TTHoves-ExtraLightItalic.ttf);}
+@font-face{font-family: TTHoves-Hairline;src: url(fonts/TTHoves-Hairline.ttf);}
+@font-face{font-family: TTHoves-HairlineItalic;src: url(fonts/TTHoves-HairlineItalic.ttf);}
+@font-face{font-family: TTHoves-Italic;src: url(fonts/TTHoves-Italic.ttf);}
+@font-face{font-family: TTHoves-Light;src: url(fonts/TTHoves-Light.ttf);}
+@font-face{font-family: TTHoves-LightItalic;src: url(fonts/TTHoves-LightItalic.ttf);}
+@font-face{font-family: TTHoves-Medium;src: url(fonts/TTHoves-Medium.ttf);}
+@font-face{font-family: TTHoves-MediumItalic;src: url(fonts/TTHoves-MediumItalic.ttf);}
+@font-face{font-family: TTHoves-Regular;src: url(fonts/TTHoves-Regular.ttf);}
+@font-face{font-family: TTHoves-Thin;src: url(fonts/TTHoves-Thin.ttf);}
+@font-face{font-family: TTHoves-ThinItalic;src: url(fonts/TTHoves-ThinItalic.ttf);}
+
+@font-face{font-family: LilitaOne-Regular;src: url(fonts/LilitaOne-Regular.ttf);}
+*/
+
+@font-face{font-family: OpenSans-Regular;src: url(fonts/OpenSans-Regular.ttf);}
+@font-face{font-family: OpenSans-Bold;src: url(fonts/OpenSans-Bold.ttf);}
+@font-face{font-family: OpenSans-Semibold;src: url(fonts/OpenSans-Semibold.ttf);}
+@font-face{font-family: OpenSans-Light;src: url(fonts/OpenSans-Light.ttf);}
+@font-face{font-family: OpenSans-BoldItalic;src: url(fonts/OpenSans-BoldItalic.ttf);}
+@font-face{font-family: OpenSans-ExtraBold;src: url(fonts/OpenSans-ExtraBold.ttf);}
+@font-face{font-family: OpenSans-ExtraBoldItalic;src: url(fonts/OpenSans-ExtraBoldItalic.ttf);}
+@font-face{font-family: OpenSans-Italic;src: url(fonts/OpenSans-Italic.ttf);}
+@font-face{font-family: OpenSans-LightItalic;src: url(fonts/OpenSans-LightItalic.ttf);}
+@font-face{font-family: OpenSans-SemiboldItalic;src: url(fonts/OpenSans-SemiboldItalic.ttf);}
+
+
+
+html{min-height:100%;}
+html,body{padding:0px;margin:0px;}
+body{height:100%;display:flex;justify-content:space-between;align-items:center;flex-flow:column nowrap;width:100%;}
+div,header,footer,span{position:relative;box-sizing:border-box;display:inline-flex;}
+header,footer{width:100%;justify-content:center;align-items:center;}
+h1,h2,h3,h4,h5{margin:0px;font-weight:400;}
+input{box-sizing:border-box;padding-left:10px;font:14px OpenSans-Regular;}
+textarea{box-sizing:border-box;padding:10px;resize:none;}
+button{border:none;}
+form{display:inline-flex;flex-flow:row wrap;justify-content:center;}
+a{display:inline-flex;text-decoration:none;color:inherit;}
+section{display:inline-flex;margin:0px;flex-flow: row wrap;justify-content:center;}
+nav{display:inline-flex;}
+div{flex-flow:row wrap;justify-content:center;align-items:center;}
+
+#preloader{width:100%;height:100%;position:fixed;background-color:white;background-image:url(../images/preloader.gif);background-position:50% 50%;background-repeat:no-repeat;}
+
+@media screen and (min-width: 1440px){
+section{width:1400px;}
+.script_img_0{display:none;}
+.fx1{width:10%;}
+.fx2{width:20%;}
+.fx3{width:30%;}
+.fx4{width:40%;}
+.fx5{width:50%;}
+.fx6{width:60%;}
+.fx7{width:70%;}
+.fx8{width:80%;}
+.fx9{width:90%;}
+.fx10{width:100%;}
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1440px){
+section{width:1150px;}
+.script_img_0{display:none;}
+.fx1{width:10%;}
+.fx2{width:20%;}
+.fx3{width:30%;}
+.fx4{width:40%;}
+.fx5{width:50%;}
+.fx6{width:60%;}
+.fx7{width:70%;}
+.fx8{width:80%;}
+.fx9{width:90%;}
+.fx10{width:100%;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px){
+section{width:768px;}
+.script_img_0{display:none;}
+.fx1{width:10%;}
+.fx2{width:20%;}
+.fx3{width:30%;}
+.fx4{width:40%;}
+.fx5{width:50%;}
+.fx6{width:60%;}
+.fx7{width:70%;}
+.fx8{width:80%;}
+.fx9{width:90%;}
+.fx10{width:100%;}
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 768px){
+nav{z-index:1;display:none;flex-flow:column nowrap;position:absolute;top:100%;right:0px;}
+section{width:550px;}
+.fx1{width:100%;}
+.fx2{width:100%;}
+.fx3{width:100%;}
+.fx4{width:100%;}
+.fx5{width:100%;}
+.fx6{width:100%;}
+.fx7{width:100%;}
+.fx8{width:100%;}
+.fx9{width:100%;}
+.fx10{width:100%;}
+}
+
+@media screen and (max-width: 550px){
+nav{z-index:1;display:none;flex-flow:column nowrap;position:absolute;top:100%;right:0px;}
+section{width:320px;}
+.fx1{width:100%;}
+.fx2{width:100%;}
+.fx3{width:100%;}
+.fx4{width:100%;}
+.fx5{width:100%;}
+.fx6{width:100%;}
+.fx7{width:100%;}
+.fx8{width:100%;}
+.fx9{width:100%;}
+.fx10{width:100%;}
+
+}
+

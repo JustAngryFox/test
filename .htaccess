@@ -1,0 +1,14 @@
+RewriteEngine on
+RewriteCond %{HTTPS} =off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
+#RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+ErrorDocument 404 /404.html
+ErrorDocument 403 /404.html
+#RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteRule ^index.php$ / [QSA,R]
+RewriteRule ^zeppelin$ zeppelin.php [L]
+RewriteRule ^cabaret$ cabaret.php [L]
+RewriteRule ^podium$ podium.php [L]
+RewriteRule ^show$ show.php [L]
+RewriteRule ^gallery$ gallery.php [L]
+RewriteRule ^contacts$ contacts.php [L]

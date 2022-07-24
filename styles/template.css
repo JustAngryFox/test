@@ -1,0 +1,25 @@
+header{width:100%;height:100px;background:#343333;}
+header section{justify-content:flex-start;}
+header section nav{color:white;font:20px Circe-Bold;}
+header section nav a{margin:0px 20px 0px 0px;}
+header section .b0{margin:0px 0px 0px auto;}
+header section .b0 span{cursor:pointer;text-decoration:underline;color:white;font:16px Circe-Regular;margin:0px 5px;}
+header section .b0 button{cursor:pointer;background:none;color:white;font:16px Circe-Regular;}
+
+.template_block_0{display:none;z-index:1;position:fixed;width:100%;height:100%;background:rgba(0,0,0,0.5);}
+.template_block_0 .b0{position:relative;width: 400px;height: 250px;background:white;flex-flow:column nowrap;}
+.template_block_0 .b0 form{flex-flow:column nowrap;}
+.template_block_0 .b0 form input{width:300px;height:45px;margin:10px 0px 0px 0px;}
+.template_block_0 .b0 form button{width:300px;height:45px;margin:15px 0px 0px 0px;cursor:pointer;background:#343333;color:white;font:20px Circe-Bold;}
+.template_block_0 .b0 img{position:absolute;cursor:pointer;right:10px;top:10px;}
+
+.template_block_1{display:none;z-index:1;position:fixed;width:100%;height:100%;background:rgba(0,0,0,0.5);}
+.template_block_1 .b0{position:relative;width: 400px;height: 315px;background:white;flex-flow:column nowrap;}
+.template_block_1 .b0 form{flex-flow:column nowrap;}
+.template_block_1 .b0 form input{width:300px;height:45px;margin:10px 0px 0px 0px;}
+.template_block_1 .b0 form button{width:300px;height:45px;margin:15px 0px 0px 0px;cursor:pointer;background:#343333;color:white;font:20px Circe-Bold;}
+.template_block_1 .b0 img{position:absolute;cursor:pointer;right:10px;top:10px;}
+
+body{background:#E6E6E6;}
+
+footer{width:100%;height:60px;background:#343333;color:white;font:16px Circe-Regular;}

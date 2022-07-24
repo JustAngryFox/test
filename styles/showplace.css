@@ -1,0 +1,13 @@
+.showplace_block_0{}
+.showplace_block_0 section{}
+.showplace_block_0 section .b0{flex-flow:column nowrap;margin:50px 0px;box-sizing:border-box;padding:30px;width:960px;background:white;border:1px solid #D9D9D9;justify-content:flex-start;}
+.showplace_block_0 section .b0 .b1{flex-flow:column nowrap;}
+.showplace_block_0 section .b0 .b1 span{font:18px Circe-Bold;}
+.showplace_block_0 section .b0 .b1 img{width:500px;height:400px;object-fit:cover;}
+.showplace_block_0 section .b0 .b3{margin:10px 0px 0px 0px;}
+.showplace_block_0 section .b0 .b3 form button{cursor:pointer;border-radius:2px;font:14px Circe-Regular;margin:0px 0px 0px 10px;}
+.showplace_block_0 section .b0 .b2{align-items:flex-start;flex-flow:column nowrap;border:1px solid #ccc;margin:40px 0px 0px 0px;padding:20px;}
+.showplace_block_0 section .b0 .b2 .s0{font:16px Circe-Bold;}
+.showplace_block_0 section .b0 .b2 .b4{flex-flow:column nowrap;align-items:flex-start;}
+.showplace_block_0 section .b0 .b2 .b4 span{font:16px Circe-Regular;margin:10px 0px 0px 0px;}
+.showplace_block_0 section .b0 .b2 .b4 span span{margin:0px 10px 0px 0px;}

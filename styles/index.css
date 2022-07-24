@@ -1,0 +1,9 @@
+.index_block_0{}
+.index_block_0 section{}
+.index_block_0 section .b0{margin:50px 0px;box-sizing:border-box;padding:30px;width:960px;background:white;border:1px solid #D9D9D9;justify-content:flex-start;}
+.index_block_0 section .b0 .b1{cursor:pointer;flex-flow:column nowrap;margin:10px;}
+.index_block_0 section .b0 .b1 img{width:300px;height:300px;object-fit:cover;}
+.index_block_0 section .b0 .b1 span{font:18px Circe-Bold;margin:20px 0px 0px 0px;}
+.index_block_0 section .b0 .b2{flex-flow:column nowrap;}
+.index_block_0 section .b0 .b2 img{width:300px;height:300px;object-fit:cover;}
+.index_block_0 section .b0 .b2 span{font:18px Circe-Bold;margin:20px 0px 0px 0px;}

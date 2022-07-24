@@ -1,0 +1,11 @@
+.city_block_0{}
+.city_block_0 section{}
+.city_block_0 section .b0{align-items:flex-start;flex-flow:column nowrap;margin:50px 0px;box-sizing:border-box;padding:30px;width:960px;background:white;border:1px solid #D9D9D9;justify-content:flex-start;}
+.city_block_0 section .b0 .b1{flex-flow:column nowrap;}
+.city_block_0 section .b0 .b1 img{width:400px;height:250px;object-fit:cover;}
+.city_block_0 section .b0 .b1 span{font:20px Circe-Bold;}
+.city_block_0 section .b0 .bu0{padding:10px;border-radius:2px;cursor:pointer;}
+.city_block_0 section .b0 .b2{flex-flow:column nowrap;margin:20px 0px 0px 0px;align-items:flex-start;}
+.city_block_0 section .b0 .b2 .s0{font:18px Circe-Bold;}
+.city_block_0 section .b0 .b2 .b3{flex-flow:column nowrap;}
+.city_block_0 section .b0 .b2 .b3 span{margin:10px 0px 0px 0px;font:18px Circe-Regular;}
